@@ -10,7 +10,7 @@ import Foundation
 struct Constants {
     static let API_KEY = "b3036e25b1c9f4277836c838ec6ac526"
     static let baseURL = "https://api.themoviedb.org"
-    static let YoutubeAPI_KEY = "AIzaSyA0cixFealaF80pMT9djDl45RWdqn39nl8"
+    static let YoutubeAPI_KEY = "GOOGLE_API_HERE"
     static let YoutubeBaseURL = "https://youtube.googleapis.com/youtube/v3/search?"
 }
 
