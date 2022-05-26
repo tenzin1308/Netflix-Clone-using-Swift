@@ -11,6 +11,7 @@ class HeroHeaderUIView: UIView {
     private let downloadButton: UIButton = {
         let button = UIButton()
         button.setTitle("Download", for: .normal)
+        button.setTitleColor(UIColor.label, for: .normal)
         button.layer.borderColor = UIColor.white.cgColor
         button.layer.borderWidth = 1
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -20,6 +21,7 @@ class HeroHeaderUIView: UIView {
     private let playButton: UIButton = {
         let button = UIButton()
         button.setTitle("Play", for: .normal)
+        button.setTitleColor(UIColor.label, for: .normal)
         button.layer.borderColor = UIColor.white.cgColor
         button.layer.borderWidth = 1
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -65,6 +67,15 @@ class HeroHeaderUIView: UIView {
         
         NSLayoutConstraint.activate(playButtonConstraints)
         NSLayoutConstraint.activate(downloadButtonConstraints)
+    }
+    
+    public func configure(with model: TitleViewModel) {
+        print("model url",model.posterURL)
+        guard let url = URL(string: "https://image.tmdb.org/t/p/w500\(model.posterURL)") else {
+            return
+        }
+        
+        heroImageView.sd_setImage(with: url, completed: nil)
     }
     override func layoutSubviews() {
         super.layoutSubviews()
