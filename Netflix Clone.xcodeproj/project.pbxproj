@@ -31,6 +31,7 @@
 		A7B6CB8D28401A1A006396BC /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6CB8C28401A1A006396BC /* TitlePreviewViewController.swift */; };
 		A7B6CB8F28401CF4006396BC /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6CB8E28401CF4006396BC /* TitlePreviewViewModel.swift */; };
 		A7B6CB9228403480006396BC /* NetflixCloneModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7B6CB9028403480006396BC /* NetflixCloneModel.xcdatamodeld */; };
+		A7B6CB9428403B3C006396BC /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B6CB9328403B3C006396BC /* DataPersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		A7B6CB8C28401A1A006396BC /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		A7B6CB8E28401CF4006396BC /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		A7B6CB9128403480006396BC /* NetflixCloneModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetflixCloneModel.xcdatamodel; sourceTree = "<group>"; };
+		A7B6CB9328403B3C006396BC /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				A7B6CB73283FD473006396BC /* APICaller.swift */,
+				A7B6CB9328403B3C006396BC /* DataPersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				A7B6CB83283FF406006396BC /* TitleTableViewCell.swift in Sources */,
 				A7B6CB67283EBED9006396BC /* SearchViewController.swift in Sources */,
 				A7B6CB7C283FE17B006396BC /* TitleCollectionViewCell.swift in Sources */,
+				A7B6CB9428403B3C006396BC /* DataPersistenceManager.swift in Sources */,
 				A7B6CB52283EBC1E006396BC /* MainTabBarViewController.swift in Sources */,
 				A7B6CB70283EC901006396BC /* CollectionViewTableViewCell.swift in Sources */,
 				A7B6CB74283FD473006396BC /* APICaller.swift in Sources */,
